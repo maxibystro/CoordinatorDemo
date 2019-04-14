@@ -4,7 +4,6 @@ import UIKit
  Coordinator is responsible for managing one or more view controllers, and it will take
  care of the flow logic (flow is a group of screens with similar purpose e.g. registration).
  */
-@objcMembers
 open class Coordinator: NSObject {
     
     /// Most transitions between view controllers can be done using routers from context.

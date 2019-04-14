@@ -5,7 +5,6 @@ import UIKit
  
  Router is responsible for creating its child. Only the first (root) router can be created with public initializer.
  */
-@objcMembers
 public final class NavigationRouterImpl: NSObject, NavigationRouter, NavigationControllerAdapterDelegate {
 
     public let navigationController: NavigationControllerAdapter

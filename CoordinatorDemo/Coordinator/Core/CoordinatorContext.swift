@@ -3,7 +3,6 @@ import Foundation
 /**
  A coordinator context contains routers which can be used for presenting view controllers.
  */
-@objcMembers
 public class CoordinatorContext: NSObject {
     
     /// Handles push/pop transitions between view controllers.
@@ -20,5 +19,4 @@ public class CoordinatorContext: NSObject {
     public init(navigationRouter: NavigationRouter?) {
         self.navigationRouter = navigationRouter
     }
-    
 }
